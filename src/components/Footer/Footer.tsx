@@ -43,7 +43,7 @@ export default function Footer() {
           <div className="flex flex-col space-y-4">
             <h3 className="text-lg font-semibold text-slate-800 font-sans">Legal</h3>
             <div className="flex flex-col space-y-2 text-sm">
-              <a href="FooterPage/TermOfPolicy/TermOfPolicy" className="text-slate-600 hover:text-orange-500 transition-colors font-sans">
+              <a href="FooterPage/TermOfService/TermOfService" className="text-slate-600 hover:text-orange-500 transition-colors font-sans">
                 Terms of Service
               </a>
               <a href="FooterPage/DataPolicy/DataPolicy" className="text-slate-600 hover:text-orange-500 transition-colors font-sans">
