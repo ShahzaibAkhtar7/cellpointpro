@@ -22,7 +22,6 @@ import {
   BarChart3,
   FileText,
   ChevronDown,
-  X,
   Puzzle,
 } from "lucide-react"
 
@@ -391,14 +390,6 @@ export default function Navbar() {
                   <Link to="/" className="flex items-center gap-3" onClick={() => setIsOpen(false)}>
                     <img src="/cellpointpro.jpg" alt="CellPointPro" className="h-8 w-auto" />
                   </Link>
-                  <Button
-                    variant="ghost"
-                    size="icon"
-                    className="h-8 w-8 text-slate-600 hover:text-slate-800"
-                    onClick={() => setIsOpen(false)}
-                  >
-                    <X className="h-4 w-4" />
-                  </Button>
                 </SheetTitle>
               </SheetHeader>
 
