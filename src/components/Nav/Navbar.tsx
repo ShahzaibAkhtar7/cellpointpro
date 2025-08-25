@@ -45,20 +45,20 @@ const businessesData = [
     title: "Cell Phone Repair",
     description: "Complete solutions for mobile device repair businesses to grow and scale efficiently.",
     icon: Smartphone,
-    href: "/Businesses/CellPhoneRepair/cellphonerepair",
+    href: "/businesses/cell-phone-repair",
     badge: "Popular",
   },
   {
     title: "Computer Repair",
     description: "Comprehensive features and tools designed to drive growth for computer repair shops.",
     icon: Monitor,
-    href: "/Businesses/ComputerRepair/ComputerRepair",
+    href: "/businesses/computer-repair",
   },
   {
     title: "Prepaid Wireless",
     description: "Specialized tools and integrations for prepaid wireless retailers and success.",
     icon: Radio,
-    href: "/Businesses/PrepaidWirelesss/PrepaidWireless",
+    href: "/businesses/prepaid-wireless",
   },
 ]
 
@@ -68,37 +68,37 @@ const featuresData = {
       title: "Check-ins",
       description: "A simple, user-friendly solution for effortless customer check-ins.",
       icon: CheckCircle,
-      href: "/Features/Check_IN/Check_in",
+      href: "/features/check-ins",
     },
     {
       title: "Ticket Management",
       description: "Dynamic ticket solutions for repair shops with automated workflows.",
       icon: Ticket,
-      href: "/Features/TicketManagement/TicketManagement",
+      href: "/features/ticket-management",
     },
     {
       title: "Integrated Payments",
       description: "Seamless payment solutions designed to help your business thrive.",
       icon: CreditCard,
-      href: "/Features/IntegratedPayment/Integrated_payment",
+      href: "/features/payments",
     },
     {
       title: "Customer Management",
       description: "Simplify customer tracking and relationship management.",
       icon: Users,
-      href: "/Features/CustomerManagement/Customer_Management",
+      href: "/features/customer-management",
     },
     {
       title: "Employee Management",
       description: "Comprehensive employee management with scheduling and tracking.",
       icon: UserCheck,
-      href: "/Features/EmployManagement/Employ_Management",
+      href: "/features/employee-management",
     },
     {
       title: "Smart Displays",
       description: "Increase revenue with creative in-store advertising displays.",
       icon: Tv,
-      href: "/Features/SmartDisplay/Smart_Display",
+      href: "/features/smart-displays",
     },
   ],
   automation: [
@@ -112,13 +112,13 @@ const featuresData = {
       title: "Team Communication",
       description: "Simplify team communication with built-in chat tools.",
       icon: MessageCircle,
-      href: "/Features/TeamCommunication/TeamCommunication",
+      href: "/features/communication",
     },
     {
       title: "Staff Scheduling",
       description: "Manage staff schedules effortlessly with shift tracking.",
       icon: Calendar,
-      href: "/Features/StaffScheduling/SaffScheduling",
+      href: "/features/scheduling",
     },
     {
       title: "Developer API",
@@ -132,25 +132,25 @@ const featuresData = {
       title: "Inventory Management",
       description: "Streamlined tools for managing your stock levels effectively.",
       icon: Package,
-      href: "/Features/InventoryManagement/InventoryManagement",
+      href: "/features/inventory-management",
     },
     {
       title: "Stock Counting",
       description: "Accurate counting solutions to keep inventory in check.",
       icon: BarChart3,
-      href: "/Features/StockCounting/StockCounting",
+      href: "/features/inventory-counts",
     },
     {
       title: "Purchase Orders",
       description: "Simplify the process of tracking and ordering stock.",
       icon: FileText,
-      href: "/Features/PurchaseOrders/PurchaseOrders",
+      href: "/features/purchase-orders",
     },
     {
       title: "RMA Management",
       description: "Hassle-free return merchandise authorization management.",
       icon: RefreshCw,
-      href: "/Features/RMA_Management/RMA_Management",
+      href: "/features/rma-management",
     },
   ],
 }
@@ -229,7 +229,7 @@ export default function Navbar() {
           to="/"
           className="mr-4 flex items-center space-x-3 lg:mr-6 hover:opacity-80 transition-opacity duration-200"
         >
-          <img src="/cellpointpro.jpg" alt="CellPointPro" className="h-10 w-auto" />
+          <img src="/Videos/cellpointpro.jpg" alt="CellPointPro" className="h-10 w-auto" />
         </Link>
 
         {/* Desktop Navigation */}
@@ -389,7 +389,7 @@ export default function Navbar() {
               <SheetHeader className="p-4 pb-2">
                 <SheetTitle className="flex items-center justify-between text-left">
                   <Link to="/" className="flex items-center gap-3" onClick={() => setIsOpen(false)}>
-                    <img src="/Videos/cellpointpro.jpg" alt="CellPointPro Logo" className="h-8 w-auto" />
+                    <img src="/Videos/cellpointpro.jpg" alt="CellPointPro" className="h-8 w-auto" />
                   </Link>
                   <Button
                     variant="ghost"
