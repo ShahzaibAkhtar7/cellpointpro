@@ -229,7 +229,7 @@ export default function Navbar() {
           to="/"
           className="mr-4 flex items-center space-x-3 lg:mr-6 hover:opacity-80 transition-opacity duration-200"
         >
-          <img src="/Videos/cellpointpro.jpg" alt="CellPointPro" className="h-10 w-auto" />
+          <img src="/cellpointpro.jpg" alt="CellPointPro" className="h-10 w-auto" />
         </Link>
 
         {/* Desktop Navigation */}
@@ -389,7 +389,7 @@ export default function Navbar() {
               <SheetHeader className="p-4 pb-2">
                 <SheetTitle className="flex items-center justify-between text-left">
                   <Link to="/" className="flex items-center gap-3" onClick={() => setIsOpen(false)}>
-                    <img src="/Videos/cellpointpro.jpg" alt="CellPointPro" className="h-8 w-auto" />
+                    <img src="/cellpointpro.jpg" alt="CellPointPro" className="h-8 w-auto" />
                   </Link>
                   <Button
                     variant="ghost"
