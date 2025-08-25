@@ -17,7 +17,7 @@ import InventoryManagement from "./page/Features/InventoryManagement/InventoryMa
 import StockCounting from "./page/Features/StockCounting/StockCounting";
 import PurchaseOrders from "./page/Features/PurchaseOrders/PurchaseOrders";
 import RMA_Management from "./page/Features/RMA_Management/RMA_Management";
-import TermOfPolicy from "./page/FooterPage/TermOfService/TermOfService";
+import TermOfService from "./page/FooterPage/TermOfService/TermOfService";
 import DataPolicy from "./page/FooterPage/DataPolicy/DataPolicy";
 import PrivacyPolicy from "./page/FooterPage/PrivacyPolicy/PrivacyPolicy";
 
@@ -43,7 +43,7 @@ export default function App() {
         <Route path="/Features/StockCounting/StockCounting" element={<StockCounting />} />
         <Route path="/Features/PurchaseOrders/PurchaseOrders" element={<PurchaseOrders />} />
         <Route path="/Features/RMA_Management/RMA_Management" element={<RMA_Management />} />
-        <Route path="/FooterPage/TermofPolicy/TermofPolicy" element={<TermOfPolicy />} />
+        <Route path="/FooterPage/TermOfService/TermOfService" element={<TermOfService />} />
         <Route path="/FooterPage/DataPolicy/DataPolicy" element={<DataPolicy />} />
         <Route path="/FooterPage/PrivacyPolicy/PrivacyPolicy" element={<PrivacyPolicy />} />
         {/* Add other routes as needed */}
