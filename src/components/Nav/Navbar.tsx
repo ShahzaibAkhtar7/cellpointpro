@@ -229,7 +229,7 @@ export default function Navbar() {
           to="/"
           className="mr-4 flex items-center space-x-3 lg:mr-6 hover:opacity-80 transition-opacity duration-200"
         >
-          <img src="/cellpointpro.jpg" alt="CellPointPro Logo" className="h-10 w-auto" />
+          <img src="/cellpointpro.jpg" alt="CellPointPro" className="h-10 w-auto" />
         </Link>
 
         {/* Desktop Navigation */}

@@ -33,7 +33,7 @@ export default function PurchaseOrders() {
           {/* Image Section */}
           <div className="flex-1 flex justify-center">
             <img
-              src="/purchaseorders1.jpg" // make sure this is inside public/
+              src="/purchaseorder.jpg" // make sure this is inside public/
               alt="Purchase Orders"
               loading="lazy"
               decoding="async"
