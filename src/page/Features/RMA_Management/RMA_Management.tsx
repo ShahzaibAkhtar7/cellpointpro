@@ -2,6 +2,7 @@ import { useState } from "react";
 import Slider from "@/components/RepairSlider/Slider";
 import BookDemoButton from "@/components/BookDemoButton/BookDemoButton";
 import BookDemoForm from "@/components/BookDemoForm/BookDemoForm";
+import RmaFeatures from "@/components/RmaFeatures/RmaFeatures";
 
 export default function RMA_Management() {
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -45,6 +46,7 @@ export default function RMA_Management() {
 
       {/* Slider Component */}
       <Slider />
+      <RmaFeatures />
 
       {/* ✅ Book Demo Modal */}
       <BookDemoForm isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />

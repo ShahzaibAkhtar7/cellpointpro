@@ -117,7 +117,7 @@ const featuresData = {
       title: "Staff Scheduling",
       description: "Manage staff schedules effortlessly with shift tracking.",
       icon: Calendar,
-      href: "//Features/StaffScheduling/SaffScheduling",
+      href: "/Features/StaffScheduling/SaffScheduling",
     },
     {
       title: "Developer API",
@@ -362,12 +362,12 @@ export default function Navbar() {
 
         {/* Right side buttons */}
         <div className="ml-auto flex items-center space-x-3">
-          <Button
+          {/* <Button
             variant="ghost"
             className="hidden text-sm font-semibold lg:inline-flex h-10 px-4 text-slate-700 hover:text-slate-900 hover:bg-slate-100 transition-all duration-200 font-sans"
           >
             Log In
-          </Button>
+          </Button> */}
           <Button className="hidden bg-gradient-to-r from-orange-400 to-orange-500 hover:from-orange-500 hover:to-orange-600 text-white text-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-200 lg:inline-flex h-10 px-6 rounded-lg font-sans">
             Get Started
           </Button>

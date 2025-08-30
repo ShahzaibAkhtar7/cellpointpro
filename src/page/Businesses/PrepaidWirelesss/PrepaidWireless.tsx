@@ -1,3 +1,4 @@
+import DynamicTicketManagement from "@/components/DynamicTicketManagement/DynamicTicketManagement";
 import Slider from "@/components/RepairSlider/Slider";
 
 export default function PrepaidWireless() {
@@ -46,6 +47,7 @@ export default function PrepaidWireless() {
 
       {/* Slider Component */}
       <Slider />
+      <DynamicTicketManagement />
     </>
   );
 }

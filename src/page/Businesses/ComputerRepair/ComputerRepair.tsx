@@ -2,6 +2,7 @@ import  { useState } from "react";
 import Slider from "@/components/RepairSlider/Slider";
 import BookDemoButton from "@/components/BookDemoButton/BookDemoButton";
 import BookDemoForm from "@/components/BookDemoForm/BookDemoForm";
+import DynaamicTicketManagement from "@/components/DynamicTicketManagement/DynamicTicketManagement";
 
 export default function ComputerRepair() {
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -44,6 +45,7 @@ export default function ComputerRepair() {
 
       {/* Slider Section */}
       <Slider />
+      <DynaamicTicketManagement />
 
       {/* ✅ Book Demo Modal Form */}
       <BookDemoForm isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />

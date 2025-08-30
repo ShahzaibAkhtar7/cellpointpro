@@ -2,6 +2,7 @@ import  { useState } from "react";
 import Slider from "@/components/RepairSlider/Slider";
 import BookDemoButton from "@/components/BookDemoButton/BookDemoButton";
 import BookDemoForm from "@/components/BookDemoForm/BookDemoForm";
+import InStoreAdvertising from "@/components/InStoreAdvertising/InStoreAdvertising";
 
 export default function Smart_Display() {
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -45,6 +46,7 @@ export default function Smart_Display() {
 
       {/* Slider Component */}
       <Slider />
+      <InStoreAdvertising />
 
       {/* ✅ Book Demo Modal */}
       <BookDemoForm isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />

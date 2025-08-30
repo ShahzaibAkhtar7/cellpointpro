@@ -2,6 +2,7 @@ import { useState } from "react";
 import Slider from "@/components/RepairSlider/Slider";
 import BookDemoButton from "@/components/BookDemoButton/BookDemoButton";
 import BookDemoForm from "@/components/BookDemoForm/BookDemoForm";
+import DiscoverPayment from "@/components/DiscoverPayment/DiscoverPayment";
 
 export default function Integrated_payment() {
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -44,6 +45,7 @@ export default function Integrated_payment() {
 
       {/* Slider Component */}
       <Slider />
+      <DiscoverPayment />
 
       {/* ✅ Book Demo Modal Form */}
       <BookDemoForm isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />

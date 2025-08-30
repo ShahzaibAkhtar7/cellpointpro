@@ -2,6 +2,7 @@ import  { useState } from "react";
 import Slider from "@/components/RepairSlider/Slider";
 import BookDemoButton from "@/components/BookDemoButton/BookDemoButton";
 import BookDemoForm from "@/components/BookDemoForm/BookDemoForm";
+import CustomDashboard from "@/components/CustomDashboad/CustomDashboard";
 
 export default function CellPhoneRepair() {
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -45,6 +46,7 @@ export default function CellPhoneRepair() {
 
       {/* Slider Section */}
       <Slider />
+      <CustomDashboard/>
 
       {/* Book Demo Modal Form */}
       <BookDemoForm isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />

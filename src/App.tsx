@@ -22,6 +22,7 @@ import DataPolicy from "./page/FooterPage/DataPolicy/DataPolicy";
 import PrivacyPolicy from "./page/FooterPage/PrivacyPolicy/PrivacyPolicy";
 
 
+
 export default function App() {
   return (
     <Router>

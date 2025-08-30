@@ -2,6 +2,7 @@ import  { useState } from "react";
 import Slider from "@/components/RepairSlider/Slider";
 import BookDemoButton from "@/components/BookDemoButton/BookDemoButton";
 import BookDemoForm from "@/components/BookDemoForm/BookDemoForm";
+import Mychats from "@/components/MyChats/Mychats";
 
 export default function TeamCommunication() {
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -45,6 +46,7 @@ export default function TeamCommunication() {
 
       {/* Slider Component */}
       <Slider />
+      <Mychats />
 
       {/* ✅ Book Demo Modal */}
       <BookDemoForm isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />

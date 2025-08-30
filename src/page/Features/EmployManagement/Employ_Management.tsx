@@ -2,6 +2,7 @@ import { useState } from "react";
 import Slider from "@/components/RepairSlider/Slider";
 import BookDemoButton from "@/components/BookDemoButton/BookDemoButton";
 import BookDemoForm from "@/components/BookDemoForm/BookDemoForm";
+import EmployTime from "@/components/EmployTime/EmployTime";
 
 export default function Employ_Management() {
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -44,6 +45,7 @@ export default function Employ_Management() {
 
       {/* Slider Component */}
       <Slider />
+      <EmployTime />  
 
       {/* ✅ Book Demo Modal Form */}
       <BookDemoForm isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />

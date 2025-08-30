@@ -2,6 +2,7 @@ import  { useState } from "react";
 import Slider from "@/components/RepairSlider/Slider";
 import BookDemoButton from "@/components/BookDemoButton/BookDemoButton";
 import BookDemoForm from "@/components/BookDemoForm/BookDemoForm";
+import StockCount from "@/components/StockCount/StockCount";
 
 export default function StockCounting() {
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -45,6 +46,7 @@ export default function StockCounting() {
 
       {/* Slider Component */}
       <Slider />
+      <StockCount />
 
       {/* ✅ Book Demo Modal */}
       <BookDemoForm isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />

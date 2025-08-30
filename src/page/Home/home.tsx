@@ -1,3 +1,4 @@
+// import CustomDashboard from "@/components/CustomDashboad/CustomDashboard";
 import Faqs from "@/components/FrequentlyQ/Faqs";
 import Herosection from "@/components/Hero/Herosection";
 import Features from "@/components/NewFeature/Features";
@@ -12,6 +13,7 @@ export default function home() {
       <Slider />
       <Features />
       <Plans />
+      {/* <CustomDashboard/> */}
       <Faqs />
     </div>
   )
